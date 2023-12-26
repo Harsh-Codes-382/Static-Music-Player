@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music web app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <!-- music box -->
+        <div class="music_container">
+            <div class="content">
+                <h2 id="songname">Bad liar</h2>
+                <div class="p">Artist: <h3 id="artist">Imagine Dragons</h3>
+                </div>
+            </div>
+            <div class="img_container">
+                <img src="assets/image/Bad-liar.jpg" alt="bad-liar">
+            </div>
+            <audio src="assets/music/Bad-liar.mp3"></audio>
+            <!-- progress bar -->
+            <div class="progressbar_container" id="progressbar_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0.00</div>
+                    <div id="duration">4:20</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <!-- music buttons -->
+            <div class="music_controls">
+                <i id="shuffle" class="fa-solid fa-shuffle" title="shuffle"></i>
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play playbtn" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+                <i id="loop" class="fa-solid fa-repeat" title="Loop"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
